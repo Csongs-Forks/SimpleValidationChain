@@ -15,8 +15,8 @@ Struts2 EXAMPLE:
 ```java
 /**
   private void validate() {
-  	validator.validateSelectRequired(person.getSelectedTitle(), "application.person.selected_title");
-  	validator.validateDOB(person.getDob_day(), person.getDob_month(), person.getDob_year(), 17, 64);
+  	validator.validateSelectRequired(person.getSelectedTitle(), "application.person.selectedTitle");
+  	validator.validateDOB(person.getDobDay(), person.getDobMonth(), person.getDobYear(), 17, 64);
   	validator.validateRequiredStringRange(person.getFirstName(), "person.firstName", 1, 100);
   	validator.validateRequiredStringRange(person.getLastName(), "person.lastName", 1, 100);
   	setFieldErrors(validator.getErrors()); // Here you get all the errors 
