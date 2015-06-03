@@ -22,5 +22,6 @@ Struts2 EXAMPLE:
   	setFieldErrors(validator.getErrors()); // Here you get all the errors 
   }
 **/
+```
 
 MIT Licence.. use as you wish, no credit needed but neither am I responsible if it breaks.
