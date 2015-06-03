@@ -7,7 +7,7 @@ The better option would be annotations, but we could not use them so I created t
 
 Development was done so that the 'ideal' form was written to a unit test and then I used Chain Of Responsiblity pattern to solve this problem.
 
-The validation has a small memory so that certain behavior can be inherited and overridden as that seemed to be the case when validating fields.
+The validation has a memory so that certain behavior can be inherited and overridden as that seemed to be the case when validating fields.
 
 There's so much more I could do with the library, but I rather spend the time elsewhere.
 
