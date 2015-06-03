@@ -3,7 +3,7 @@ I thought this library came quite handy on a project I did work on so I thought 
 The library is designed to be configured with minimal semantics which can be used in single function or so. User can create chains of validation and
 hook up different validation engines to it, e.g. Commons Validation.
 
-The better option would be annotations, but we could not use them so I created this library.
+The better option would be annotations, but "we could not use them" so I created this library.
 
 Development was done so that the 'ideal' form was written to a unit test and then I used Chain Of Responsiblity pattern to solve this problem.
 
