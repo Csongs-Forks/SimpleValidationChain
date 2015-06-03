@@ -11,4 +11,15 @@ The validation has a memory so that certain behavior can be inherited and overri
 
 There's so much more I could do with the library, but I rather spend the time elsewhere.
 
+Struts2 EXAMPLE: 
+/**
+  private void validate() {
+  	validator.validateSelectRequired(person.getSelectedTitle(), "application.person.selected_title");
+  	validator.validateDOB(person.getDob_day(), person.getDob_month(), person.getDob_year(), 17, 64);
+  	validator.validateRequiredStringRange(person.getFirstName(), "person.firstName", 1, 100);
+  	validator.validateRequiredStringRange(person.getLastName(), "person.lastName", 1, 100);
+  	setFieldErrors(validator.getErrors()); // Here you get all the errors 
+  }
+**/
+
 MIT Licence.. use as you wish, no credit needed but neither am I responsible if it breaks.
