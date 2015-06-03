@@ -12,6 +12,7 @@ The validation has a memory so that certain behavior can be inherited and overri
 There's so much more I could do with the library, but I rather spend the time elsewhere.
 
 Struts2 EXAMPLE: 
+```java
 /**
   private void validate() {
   	validator.validateSelectRequired(person.getSelectedTitle(), "application.person.selected_title");
